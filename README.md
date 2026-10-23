@@ -13,7 +13,7 @@ Runtime, and MLflow; containerized for reproducible headless execution.
 
 2. **Stress testing** (`stress_augmentor.py`)
    Augmentation suite (brightness/contrast extremes, solar-glare-style glare,
-   sensor noise, motion blur) for probing model robustness under harsh
+   sensor noise, motion blur) for testing how the model holds up under harsh
    lighting and simulated sensor noise. Falls back to a pure-NumPy
    implementation when `albumentations` isn't available.
 
